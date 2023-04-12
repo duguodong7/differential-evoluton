@@ -1,0 +1,460 @@
+2023-04-05 17:54:26,091 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 7
+2023-04-05 17:54:26,105 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 5
+2023-04-05 17:54:26,137 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 6
+2023-04-05 17:54:26,151 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 3
+2023-04-05 17:54:26,154 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 4
+2023-04-05 17:54:26,171 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+2023-04-05 17:54:26,177 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 0
+2023-04-05 17:54:26,186 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 2
+2023-04-05 17:54:26,187 - torch.distributed.distributed_c10d: [    INFO] - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:26,188 - torch.distributed.distributed_c10d: [    INFO] - Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:26,188 - torch.distributed.distributed_c10d: [    INFO] - Rank 5: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:26,188 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 0, total 8.
+2023-04-05 17:54:26,188 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 5, total 8.
+2023-04-05 17:54:26,188 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 2, total 8.
+2023-04-05 17:54:26,189 - torch.distributed.distributed_c10d: [    INFO] - Rank 6: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:26,190 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 6, total 8.
+2023-04-05 17:54:26,192 - torch.distributed.distributed_c10d: [    INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:26,192 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 1, total 8.
+2023-04-05 17:54:26,194 - torch.distributed.distributed_c10d: [    INFO] - Rank 3: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:26,195 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 3, total 8.
+2023-04-05 17:54:26,195 - torch.distributed.distributed_c10d: [    INFO] - Rank 7: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:26,195 - torch.distributed.distributed_c10d: [    INFO] - Rank 4: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:26,195 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 7, total 8.
+2023-04-05 17:54:26,195 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 4, total 8.
+2023-04-05 17:54:26,555 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:26,607 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:26,619 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:26,619 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:26,621 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:26,625 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:26,627 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:26,671 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:26,757 -                train: [    INFO] - Model resnet18 created, param count: 11689512
+2023-04-05 17:54:26,757 -          data.config: [    INFO] - Data processing configuration for current model + dataset:
+2023-04-05 17:54:26,757 -          data.config: [    INFO] - 	input_size: (3, 224, 224)
+2023-04-05 17:54:26,757 -          data.config: [    INFO] - 	interpolation: bilinear
+2023-04-05 17:54:26,757 -          data.config: [    INFO] - 	mean: (0.485, 0.456, 0.406)
+2023-04-05 17:54:26,757 -          data.config: [    INFO] - 	std: (0.229, 0.224, 0.225)
+2023-04-05 17:54:26,757 -          data.config: [    INFO] - 	crop_pct: 0.875
+2023-04-05 17:54:26,758 -          data.config: [    INFO] - 	crop_mode: center
+2023-04-05 17:54:28,729 -                train: [    INFO] - Using native Torch AMP. Training in mixed precision.
+2023-04-05 17:54:50,086 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 2
+2023-04-05 17:54:50,137 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+2023-04-05 17:54:50,187 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 7
+2023-04-05 17:54:50,197 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 4
+2023-04-05 17:54:50,200 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 5
+2023-04-05 17:54:50,217 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 0
+2023-04-05 17:54:50,227 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 6
+2023-04-05 17:54:50,236 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 3
+2023-04-05 17:54:50,237 - torch.distributed.distributed_c10d: [    INFO] - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:50,238 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 0, total 8.
+2023-04-05 17:54:50,238 - torch.distributed.distributed_c10d: [    INFO] - Rank 3: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:50,238 - torch.distributed.distributed_c10d: [    INFO] - Rank 6: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:50,238 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 3, total 8.
+2023-04-05 17:54:50,238 - torch.distributed.distributed_c10d: [    INFO] - Rank 7: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:50,238 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 6, total 8.
+2023-04-05 17:54:50,238 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 7, total 8.
+2023-04-05 17:54:50,238 - torch.distributed.distributed_c10d: [    INFO] - Rank 4: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:50,239 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 4, total 8.
+2023-04-05 17:54:50,240 - torch.distributed.distributed_c10d: [    INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:50,240 - torch.distributed.distributed_c10d: [    INFO] - Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:50,240 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 1, total 8.
+2023-04-05 17:54:50,241 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 2, total 8.
+2023-04-05 17:54:50,242 - torch.distributed.distributed_c10d: [    INFO] - Rank 5: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:54:50,242 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 5, total 8.
+2023-04-05 17:54:50,591 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:50,606 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:50,620 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:50,642 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:50,652 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:50,672 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:50,675 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:50,701 - timm.models._builder: [    INFO] - Loading pretrained weights from url (https://download.pytorch.org/models/resnet18-5c106cde.pth)
+2023-04-05 17:54:50,712 -                train: [    INFO] - Model resnet18 created, param count: 11689512
+2023-04-05 17:54:50,713 -          data.config: [    INFO] - Data processing configuration for current model + dataset:
+2023-04-05 17:54:50,713 -          data.config: [    INFO] - 	input_size: (3, 224, 224)
+2023-04-05 17:54:50,713 -          data.config: [    INFO] - 	interpolation: bilinear
+2023-04-05 17:54:50,713 -          data.config: [    INFO] - 	mean: (0.485, 0.456, 0.406)
+2023-04-05 17:54:50,713 -          data.config: [    INFO] - 	std: (0.229, 0.224, 0.225)
+2023-04-05 17:54:50,713 -          data.config: [    INFO] - 	crop_pct: 0.875
+2023-04-05 17:54:50,713 -          data.config: [    INFO] - 	crop_mode: center
+2023-04-05 17:54:52,890 -                train: [    INFO] - Using native Torch AMP. Training in mixed precision.
+2023-04-05 17:54:53,057 - timm.models._helpers: [    INFO] - Restoring model state from checkpoint...
+2023-04-05 17:56:10,430 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 3
+2023-04-05 17:56:10,457 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 7
+2023-04-05 17:56:10,474 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 2
+2023-04-05 17:56:10,500 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 0
+2023-04-05 17:56:10,508 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 1
+2023-04-05 17:56:10,516 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 5
+2023-04-05 17:56:10,535 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 6
+2023-04-05 17:56:10,546 - torch.distributed.distributed_c10d: [    INFO] - Added key: store_based_barrier_key:1 to store for rank: 4
+2023-04-05 17:56:10,546 - torch.distributed.distributed_c10d: [    INFO] - Rank 4: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:56:10,546 - torch.distributed.distributed_c10d: [    INFO] - Rank 6: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:56:10,546 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 4, total 8.
+2023-04-05 17:56:10,546 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 6, total 8.
+2023-04-05 17:56:10,547 - torch.distributed.distributed_c10d: [    INFO] - Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:56:10,547 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 2, total 8.
+2023-04-05 17:56:10,548 - torch.distributed.distributed_c10d: [    INFO] - Rank 5: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:56:10,548 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 5, total 8.
+2023-04-05 17:56:10,549 - torch.distributed.distributed_c10d: [    INFO] - Rank 7: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:56:10,549 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 7, total 8.
+2023-04-05 17:56:10,550 - torch.distributed.distributed_c10d: [    INFO] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:56:10,550 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 1, total 8.
+2023-04-05 17:56:10,552 - torch.distributed.distributed_c10d: [    INFO] - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:56:10,552 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 0, total 8.
+2023-04-05 17:56:10,553 - torch.distributed.distributed_c10d: [    INFO] - Rank 3: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+2023-04-05 17:56:10,553 -                train: [    INFO] - Training in distributed mode with multiple processes, 1 GPU per process. Process 3, total 8.
+2023-04-05 17:56:11,034 -                train: [    INFO] - Model resnet50 created, param count: 25557032
+2023-04-05 17:56:11,034 -          data.config: [    INFO] - Data processing configuration for current model + dataset:
+2023-04-05 17:56:11,034 -          data.config: [    INFO] - 	input_size: (3, 224, 224)
+2023-04-05 17:56:11,034 -          data.config: [    INFO] - 	interpolation: bicubic
+2023-04-05 17:56:11,034 -          data.config: [    INFO] - 	mean: (0.485, 0.456, 0.406)
+2023-04-05 17:56:11,034 -          data.config: [    INFO] - 	std: (0.229, 0.224, 0.225)
+2023-04-05 17:56:11,034 -          data.config: [    INFO] - 	crop_pct: 0.95
+2023-04-05 17:56:11,035 -          data.config: [    INFO] - 	crop_mode: center
+2023-04-05 17:56:13,285 -                train: [    INFO] - Using native Torch AMP. Training in mixed precision.
+2023-04-05 17:56:13,424 - timm.models._helpers: [    INFO] - Restoring model state from checkpoint...
+2023-04-05 17:56:13,464 - timm.models._helpers: [    INFO] - Loaded checkpoint '/root/declc_guodong/resnet50-76.30/checkpoint-2.pth.tar' (epoch 2)
+2023-04-05 17:56:13,627 - timm.models._helpers: [    INFO] - Restoring model state from checkpoint...
+2023-04-05 17:56:13,666 - timm.models._helpers: [    INFO] - Loaded checkpoint '/root/declc_guodong/resnet50-76.30/checkpoint-13.pth.tar' (epoch 13)
+2023-04-05 17:56:13,830 - timm.models._helpers: [    INFO] - Restoring model state from checkpoint...
+2023-04-05 17:56:13,870 - timm.models._helpers: [    INFO] - Loaded checkpoint '/root/declc_guodong/resnet50-76.30/checkpoint-12.pth.tar' (epoch 12)
+2023-04-05 17:56:14,040 - timm.models._helpers: [    INFO] - Restoring model state from checkpoint...
+2023-04-05 17:56:14,080 - timm.models._helpers: [    INFO] - Loaded checkpoint '/root/declc_guodong/resnet50-76.30/checkpoint-3.pth.tar' (epoch 3)
+2023-04-05 17:56:14,250 - timm.models._helpers: [    INFO] - Restoring model state from checkpoint...
+2023-04-05 17:56:14,290 - timm.models._helpers: [    INFO] - Loaded checkpoint '/root/declc_guodong/resnet50-76.30/checkpoint-20.pth.tar' (epoch 20)
+2023-04-05 17:56:14,463 - timm.models._helpers: [    INFO] - Restoring model state from checkpoint...
+2023-04-05 17:56:14,502 - timm.models._helpers: [    INFO] - Loaded checkpoint '/root/declc_guodong/resnet50-76.30/checkpoint-10.pth.tar' (epoch 10)
+2023-04-05 17:56:14,673 - timm.models._helpers: [    INFO] - Restoring model state from checkpoint...
+2023-04-05 17:56:14,715 - timm.models._helpers: [    INFO] - Loaded checkpoint '/root/declc_guodong/resnet50-76.30/checkpoint-9.pth.tar' (epoch 9)
+2023-04-05 17:56:14,889 - timm.models._helpers: [    INFO] - Restoring model state from checkpoint...
+2023-04-05 17:56:14,930 - timm.models._helpers: [    INFO] - Loaded checkpoint '/root/declc_guodong/resnet50-76.30/checkpoint-5.pth.tar' (epoch 5)
+2023-04-05 17:56:15,101 - timm.models._helpers: [    INFO] - Restoring model state from checkpoint...
+2023-04-05 17:56:15,141 - timm.models._helpers: [    INFO] - Loaded checkpoint '/root/declc_guodong/resnet50-76.30/checkpoint-11.pth.tar' (epoch 11)
+2023-04-05 17:56:15,305 - timm.models._helpers: [    INFO] - Restoring model state from checkpoint...
+2023-04-05 17:56:15,346 - timm.models._helpers: [    INFO] - Loaded checkpoint '/root/declc_guodong/resnet50-76.30/checkpoint-4.pth.tar' (epoch 4)
+2023-04-05 17:56:15,374 -                train: [    INFO] - Converted model to use Synchronized BatchNorm. WARNING: You may have issues if using zero initialized BN layers (enabled by default for ResNets) while sync-bn enabled.
+2023-04-05 17:56:15,374 -                train: [    INFO] - Using native Torch DistributedDataParallel.
+2023-04-05 17:56:16,622 -                train: [    INFO] - Scheduled epochs: 10
+2023-04-05 17:56:56,456 -                train: [    INFO] - Test: [   0/8]  Time: 23.038 (23.038)  DataTime: 18.589 (18.589)  Loss:  0.6982 (0.6982)  Acc@1: 81.8034 (81.8034)  Acc@5: 95.5241 (95.5241)
+2023-04-05 17:57:05,244 -                train: [    INFO] - Test: [   8/8]  Time: 0.189 (3.536)  DataTime: 0.000 (2.067)  Loss:  0.5503 (0.9477)  Acc@1: 83.4906 (76.2200)  Acc@5: 95.9906 (92.9600)
+2023-04-05 17:57:25,148 -                train: [    INFO] - Test: [   0/8]  Time: 19.877 (19.877)  DataTime: 16.802 (16.802)  Loss:  0.6968 (0.6968)  Acc@1: 81.8197 (81.8197)  Acc@5: 95.4590 (95.4590)
+2023-04-05 17:57:34,433 -                train: [    INFO] - Test: [   8/8]  Time: 0.187 (3.240)  DataTime: 0.000 (1.868)  Loss:  0.5342 (0.9418)  Acc@1: 83.9623 (76.1080)  Acc@5: 96.2264 (93.0380)
+2023-04-05 17:57:54,549 -                train: [    INFO] - Test: [   0/8]  Time: 20.089 (20.089)  DataTime: 16.981 (16.981)  Loss:  0.6968 (0.6968)  Acc@1: 81.9336 (81.9336)  Acc@5: 95.4427 (95.4427)
+2023-04-05 17:58:03,857 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.266)  DataTime: 0.000 (1.888)  Loss:  0.5356 (0.9442)  Acc@1: 83.9623 (76.1260)  Acc@5: 96.1085 (93.0120)
+2023-04-05 17:58:24,040 -                train: [    INFO] - Test: [   0/8]  Time: 20.157 (20.157)  DataTime: 17.612 (17.612)  Loss:  0.6963 (0.6963)  Acc@1: 81.8848 (81.8848)  Acc@5: 95.5892 (95.5892)
+2023-04-05 17:58:32,120 -                train: [    INFO] - Test: [   8/8]  Time: 0.148 (3.137)  DataTime: 0.000 (1.958)  Loss:  0.5513 (0.9467)  Acc@1: 84.0802 (76.1280)  Acc@5: 96.2264 (93.0000)
+2023-04-05 17:58:52,737 -                train: [    INFO] - Test: [   0/8]  Time: 20.591 (20.591)  DataTime: 19.582 (19.582)  Loss:  0.6953 (0.6953)  Acc@1: 81.8848 (81.8848)  Acc@5: 95.5729 (95.5729)
+2023-04-05 17:59:01,899 -                train: [    INFO] - Test: [   8/8]  Time: 0.189 (3.306)  DataTime: 0.000 (2.177)  Loss:  0.5352 (0.9388)  Acc@1: 83.7264 (76.2240)  Acc@5: 96.4623 (93.1180)
+2023-04-05 17:59:21,779 -                train: [    INFO] - Test: [   0/8]  Time: 19.853 (19.853)  DataTime: 17.059 (17.059)  Loss:  0.6934 (0.6934)  Acc@1: 82.0312 (82.0312)  Acc@5: 95.4753 (95.4753)
+2023-04-05 17:59:30,902 -                train: [    INFO] - Test: [   8/8]  Time: 0.188 (3.220)  DataTime: 0.000 (1.896)  Loss:  0.5322 (0.9450)  Acc@1: 83.8443 (76.1920)  Acc@5: 96.2264 (93.0000)
+2023-04-05 17:59:51,234 -                train: [    INFO] - Test: [   0/8]  Time: 20.306 (20.306)  DataTime: 17.025 (17.025)  Loss:  0.6929 (0.6929)  Acc@1: 81.9010 (81.9010)  Acc@5: 95.4753 (95.4753)
+2023-04-05 18:00:00,326 -                train: [    INFO] - Test: [   8/8]  Time: 0.194 (3.266)  DataTime: 0.000 (1.893)  Loss:  0.5332 (0.9414)  Acc@1: 84.0802 (76.2080)  Acc@5: 96.3443 (93.0420)
+2023-04-05 18:00:20,606 -                train: [    INFO] - Test: [   0/8]  Time: 20.254 (20.254)  DataTime: 17.248 (17.248)  Loss:  0.6914 (0.6914)  Acc@1: 81.7871 (81.7871)  Acc@5: 95.6217 (95.6217)
+2023-04-05 18:00:29,936 -                train: [    INFO] - Test: [   8/8]  Time: 0.191 (3.287)  DataTime: 0.000 (1.918)  Loss:  0.5483 (0.9449)  Acc@1: 83.8443 (76.1580)  Acc@5: 96.1085 (93.0640)
+2023-04-05 18:00:49,899 -                train: [    INFO] - Test: [   0/8]  Time: 19.936 (19.936)  DataTime: 16.787 (16.787)  Loss:  0.6924 (0.6924)  Acc@1: 81.9661 (81.9661)  Acc@5: 95.5729 (95.5729)
+2023-04-05 18:00:58,832 -                train: [    INFO] - Test: [   8/8]  Time: 0.189 (3.208)  DataTime: 0.000 (1.866)  Loss:  0.5215 (0.9436)  Acc@1: 84.0802 (76.1900)  Acc@5: 95.9906 (93.0460)
+2023-04-05 18:01:19,312 -                train: [    INFO] - Test: [   0/8]  Time: 20.454 (20.454)  DataTime: 19.423 (19.423)  Loss:  0.6963 (0.6963)  Acc@1: 81.9173 (81.9173)  Acc@5: 95.4590 (95.4590)
+2023-04-05 18:01:27,007 -                train: [    INFO] - Test: [   8/8]  Time: 0.148 (3.128)  DataTime: 0.000 (2.159)  Loss:  0.5415 (0.9463)  Acc@1: 83.9623 (76.2200)  Acc@5: 95.9906 (93.0140)
+2023-04-05 18:03:00,546 -                train: [    INFO] - pop: 0 input: tensor([0.3309, 0.3309, 0.3309, 0.3309, 0.3481], device='cuda:0')
+2023-04-05 18:08:22,049 -                train: [    INFO] - de_iter:0, best_score: 0.9419, best_idx:4, de_iter_loss: [0.9639, 0.9482, 0.9531, 0.9614, 0.9419, 0.9517, 0.9512, 0.9561, 0.9502, 0.9604]
+2023-04-05 18:09:54,619 -                train: [    INFO] - pop: 0 input: tensor([0.3309, 0.3309, 0.3309, 0.3309, 0.3481], device='cuda:0')
+2023-04-05 18:15:31,286 -                train: [    INFO] - de_iter:1, best_score: 0.9409, best_idx:4, de_iter_loss: [0.9624, 0.9458, 0.9517, 0.9604, 0.9409, 0.9512, 0.9497, 0.9526, 0.9487, 0.9575]
+2023-04-05 18:16:09,920 -                train: [    INFO] - Test: [   0/8]  Time: 38.603 (38.603)  DataTime: 36.953 (36.953)  Loss:  0.6978 (0.6978)  Acc@1: 81.6569 (81.6569)  Acc@5: 95.4915 (95.4915)
+2023-04-05 18:16:18,605 -                train: [    INFO] - Test: [   8/8]  Time: 0.187 (5.254)  DataTime: 0.000 (4.107)  Loss:  0.5488 (0.9473)  Acc@1: 83.7264 (76.1860)  Acc@5: 95.9906 (93.0020)
+2023-04-05 18:16:38,828 -                train: [    INFO] - Test: [   0/8]  Time: 20.197 (20.197)  DataTime: 19.156 (19.156)  Loss:  0.6958 (0.6958)  Acc@1: 81.9010 (81.9010)  Acc@5: 95.5241 (95.5241)
+2023-04-05 18:16:48,164 -                train: [    INFO] - Test: [   8/8]  Time: 0.192 (3.281)  DataTime: 0.000 (2.129)  Loss:  0.5342 (0.9406)  Acc@1: 83.9623 (76.1120)  Acc@5: 96.1085 (93.0500)
+2023-04-05 18:17:08,098 -                train: [    INFO] - Test: [   0/8]  Time: 19.907 (19.907)  DataTime: 17.479 (17.479)  Loss:  0.6953 (0.6953)  Acc@1: 81.9336 (81.9336)  Acc@5: 95.3939 (95.3939)
+2023-04-05 18:17:16,926 -                train: [    INFO] - Test: [   8/8]  Time: 0.188 (3.193)  DataTime: 0.000 (1.943)  Loss:  0.5361 (0.9434)  Acc@1: 84.1981 (76.1460)  Acc@5: 96.2264 (93.0380)
+2023-04-05 18:17:37,222 -                train: [    INFO] - Test: [   0/8]  Time: 20.269 (20.269)  DataTime: 17.544 (17.544)  Loss:  0.6953 (0.6953)  Acc@1: 81.9173 (81.9173)  Acc@5: 95.5729 (95.5729)
+2023-04-05 18:17:45,045 -                train: [    INFO] - Test: [   8/8]  Time: 0.160 (3.121)  DataTime: 0.000 (1.950)  Loss:  0.5498 (0.9454)  Acc@1: 83.9623 (76.1500)  Acc@5: 96.2264 (93.0080)
+2023-04-05 18:18:04,826 -                train: [    INFO] - Test: [   0/8]  Time: 19.755 (19.755)  DataTime: 18.683 (18.683)  Loss:  0.6934 (0.6934)  Acc@1: 81.9010 (81.9010)  Acc@5: 95.5566 (95.5566)
+2023-04-05 18:18:14,192 -                train: [    INFO] - Test: [   8/8]  Time: 0.193 (3.236)  DataTime: 0.000 (2.077)  Loss:  0.5356 (0.9381)  Acc@1: 83.9623 (76.2360)  Acc@5: 96.5802 (93.1520)
+2023-04-05 18:18:33,889 -                train: [    INFO] - Test: [   0/8]  Time: 19.671 (19.671)  DataTime: 18.140 (18.140)  Loss:  0.6929 (0.6929)  Acc@1: 81.9336 (81.9336)  Acc@5: 95.4915 (95.4915)
+2023-04-05 18:18:43,119 -                train: [    INFO] - Test: [   8/8]  Time: 0.188 (3.211)  DataTime: 0.000 (2.017)  Loss:  0.5317 (0.9439)  Acc@1: 83.8443 (76.1840)  Acc@5: 96.2264 (93.0120)
+2023-04-05 18:19:02,822 -                train: [    INFO] - Test: [   0/8]  Time: 19.676 (19.676)  DataTime: 16.910 (16.910)  Loss:  0.6929 (0.6929)  Acc@1: 81.8359 (81.8359)  Acc@5: 95.4915 (95.4915)
+2023-04-05 18:19:11,642 -                train: [    INFO] - Test: [   8/8]  Time: 0.144 (3.166)  DataTime: 0.000 (1.880)  Loss:  0.5337 (0.9409)  Acc@1: 84.0802 (76.2000)  Acc@5: 96.3443 (93.0660)
+2023-04-05 18:19:31,627 -                train: [    INFO] - Test: [   0/8]  Time: 19.959 (19.959)  DataTime: 18.199 (18.199)  Loss:  0.6924 (0.6924)  Acc@1: 81.7383 (81.7383)  Acc@5: 95.4753 (95.4753)
+2023-04-05 18:19:40,827 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.240)  DataTime: 0.000 (2.023)  Loss:  0.5479 (0.9439)  Acc@1: 83.9623 (76.1640)  Acc@5: 96.2264 (93.0480)
+2023-04-05 18:20:00,417 -                train: [    INFO] - Test: [   0/8]  Time: 19.563 (19.563)  DataTime: 17.537 (17.537)  Loss:  0.6909 (0.6909)  Acc@1: 82.0312 (82.0312)  Acc@5: 95.5729 (95.5729)
+2023-04-05 18:20:07,933 -                train: [    INFO] - Test: [   8/8]  Time: 0.146 (3.009)  DataTime: 0.000 (1.950)  Loss:  0.5239 (0.9427)  Acc@1: 84.1981 (76.2200)  Acc@5: 96.1085 (93.0560)
+2023-04-05 18:20:27,544 -                train: [    INFO] - Test: [   0/8]  Time: 19.584 (19.584)  DataTime: 18.014 (18.014)  Loss:  0.6934 (0.6934)  Acc@1: 81.9824 (81.9824)  Acc@5: 95.5241 (95.5241)
+2023-04-05 18:20:34,971 -                train: [    INFO] - Test: [   8/8]  Time: 0.147 (3.001)  DataTime: 0.000 (2.003)  Loss:  0.5425 (0.9438)  Acc@1: 83.7264 (76.2500)  Acc@5: 95.9906 (92.9920)
+2023-04-05 18:20:34,971 -                train: [    INFO] - eval_metrics_acc1: [76.186, 76.112, 76.146, 76.15, 76.236, 76.184, 76.2, 76.164, 76.22, 76.25]
+2023-04-05 18:20:34,971 -                train: [    INFO] - DE: 0 [de_iter: 1]  Acc@1: 76.2360  Acc@5: 93.1520  Iter_time: 732.920s,  196.47/s  
+2023-04-05 18:21:53,133 -                train: [    INFO] - pop: 0 input: tensor([0.3309, 0.3309, 0.3309, 0.3309, 0.3481], device='cuda:0')
+2023-04-05 18:27:23,728 -                train: [    INFO] - de_iter:2, best_score: 0.9404, best_idx:4, de_iter_loss: [0.9604, 0.9448, 0.9502, 0.9575, 0.9404, 0.9497, 0.9487, 0.9526, 0.9473, 0.9536]
+2023-04-05 18:27:43,942 -                train: [    INFO] - Test: [   0/8]  Time: 20.161 (20.161)  DataTime: 16.673 (16.673)  Loss:  0.6968 (0.6968)  Acc@1: 81.7220 (81.7220)  Acc@5: 95.4753 (95.4753)
+2023-04-05 18:27:52,958 -                train: [    INFO] - Test: [   8/8]  Time: 0.191 (3.242)  DataTime: 0.000 (1.854)  Loss:  0.5469 (0.9461)  Acc@1: 83.7264 (76.1920)  Acc@5: 95.9906 (93.0180)
+2023-04-05 18:28:12,616 -                train: [    INFO] - Test: [   0/8]  Time: 19.633 (19.633)  DataTime: 17.904 (17.904)  Loss:  0.6958 (0.6958)  Acc@1: 81.9010 (81.9010)  Acc@5: 95.5078 (95.5078)
+2023-04-05 18:28:21,455 -                train: [    INFO] - Test: [   8/8]  Time: 0.191 (3.164)  DataTime: 0.000 (1.990)  Loss:  0.5342 (0.9401)  Acc@1: 83.6085 (76.1380)  Acc@5: 96.3443 (93.0800)
+2023-04-05 18:28:40,917 -                train: [    INFO] - Test: [   0/8]  Time: 19.435 (19.435)  DataTime: 17.650 (17.650)  Loss:  0.6953 (0.6953)  Acc@1: 81.9336 (81.9336)  Acc@5: 95.3939 (95.3939)
+2023-04-05 18:28:50,101 -                train: [    INFO] - Test: [   8/8]  Time: 0.189 (3.180)  DataTime: 0.000 (1.962)  Loss:  0.5361 (0.9428)  Acc@1: 84.1981 (76.1740)  Acc@5: 96.2264 (93.0380)
+2023-04-05 18:29:10,349 -                train: [    INFO] - Test: [   0/8]  Time: 20.217 (20.217)  DataTime: 19.175 (19.175)  Loss:  0.6943 (0.6943)  Acc@1: 81.9336 (81.9336)  Acc@5: 95.5241 (95.5241)
+2023-04-05 18:29:18,245 -                train: [    INFO] - Test: [   8/8]  Time: 0.146 (3.124)  DataTime: 0.000 (2.132)  Loss:  0.5474 (0.9445)  Acc@1: 84.1981 (76.1620)  Acc@5: 96.2264 (93.0180)
+2023-04-05 18:29:38,330 -                train: [    INFO] - Test: [   0/8]  Time: 20.060 (20.060)  DataTime: 17.115 (17.115)  Loss:  0.6934 (0.6934)  Acc@1: 81.9987 (81.9987)  Acc@5: 95.6055 (95.6055)
+2023-04-05 18:29:47,749 -                train: [    INFO] - Test: [   8/8]  Time: 0.191 (3.275)  DataTime: 0.000 (1.903)  Loss:  0.5337 (0.9374)  Acc@1: 83.8443 (76.2620)  Acc@5: 96.4623 (93.1460)
+2023-04-05 18:30:07,877 -                train: [    INFO] - Test: [   0/8]  Time: 20.097 (20.097)  DataTime: 18.130 (18.130)  Loss:  0.6924 (0.6924)  Acc@1: 81.8685 (81.8685)  Acc@5: 95.4753 (95.4753)
+2023-04-05 18:30:15,621 -                train: [    INFO] - Test: [   8/8]  Time: 0.147 (3.093)  DataTime: 0.000 (2.015)  Loss:  0.5332 (0.9435)  Acc@1: 83.6085 (76.1600)  Acc@5: 96.2264 (92.9820)
+2023-04-05 18:30:36,140 -                train: [    INFO] - Test: [   0/8]  Time: 20.492 (20.492)  DataTime: 17.695 (17.695)  Loss:  0.6934 (0.6934)  Acc@1: 81.7871 (81.7871)  Acc@5: 95.4264 (95.4264)
+2023-04-05 18:30:45,319 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.297)  DataTime: 0.000 (1.967)  Loss:  0.5327 (0.9406)  Acc@1: 83.9623 (76.1980)  Acc@5: 96.3443 (93.0480)
+2023-04-05 18:31:04,737 -                train: [    INFO] - Test: [   0/8]  Time: 19.393 (19.393)  DataTime: 17.673 (17.673)  Loss:  0.6914 (0.6914)  Acc@1: 81.9499 (81.9499)  Acc@5: 95.5404 (95.5404)
+2023-04-05 18:31:12,435 -                train: [    INFO] - Test: [   8/8]  Time: 0.144 (3.010)  DataTime: 0.000 (1.965)  Loss:  0.5239 (0.9420)  Acc@1: 83.9623 (76.2300)  Acc@5: 96.2264 (93.0780)
+2023-04-05 18:31:32,326 -                train: [    INFO] - Test: [   0/8]  Time: 19.865 (19.865)  DataTime: 17.031 (17.031)  Loss:  0.6924 (0.6924)  Acc@1: 81.9987 (81.9987)  Acc@5: 95.5241 (95.5241)
+2023-04-05 18:31:41,605 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.238)  DataTime: 0.000 (1.894)  Loss:  0.5420 (0.9419)  Acc@1: 83.7264 (76.2740)  Acc@5: 96.1085 (93.0280)
+2023-04-05 18:31:41,605 -                train: [    INFO] - eval_metrics_acc1: [76.192, 76.138, 76.174, 76.162, 76.262, 76.16, 76.198, 76.164, 76.23, 76.274]
+2023-04-05 18:31:41,605 -                train: [    INFO] - DE: 0 [de_iter: 2]  Acc@1: 76.2620  Acc@5: 93.1460  Iter_time: 666.634s,  216.01/s  
+2023-04-05 18:33:02,849 -                train: [    INFO] - pop: 0 input: tensor([0.3309, 0.3309, 0.3309, 0.3309, 0.3481], device='cuda:0')
+2023-04-05 18:38:45,097 -                train: [    INFO] - de_iter:3, best_score: 0.9395, best_idx:4, de_iter_loss: [0.9575, 0.9438, 0.9497, 0.9551, 0.9395, 0.9487, 0.9468, 0.9512, 0.9458, 0.9536]
+2023-04-05 18:39:04,254 -                train: [    INFO] - Test: [   0/8]  Time: 19.126 (19.126)  DataTime: 17.574 (17.574)  Loss:  0.6968 (0.6968)  Acc@1: 81.7383 (81.7383)  Acc@5: 95.4753 (95.4753)
+2023-04-05 18:39:13,194 -                train: [    INFO] - Test: [   8/8]  Time: 0.150 (3.118)  DataTime: 0.000 (1.954)  Loss:  0.5439 (0.9447)  Acc@1: 83.8443 (76.2060)  Acc@5: 95.9906 (93.0060)
+2023-04-05 18:39:33,531 -                train: [    INFO] - Test: [   0/8]  Time: 20.312 (20.312)  DataTime: 18.975 (18.975)  Loss:  0.6953 (0.6953)  Acc@1: 81.9824 (81.9824)  Acc@5: 95.4753 (95.4753)
+2023-04-05 18:39:41,062 -                train: [    INFO] - Test: [   8/8]  Time: 0.146 (3.094)  DataTime: 0.000 (2.110)  Loss:  0.5337 (0.9397)  Acc@1: 83.8443 (76.2140)  Acc@5: 96.2264 (93.0580)
+2023-04-05 18:40:01,162 -                train: [    INFO] - Test: [   0/8]  Time: 20.074 (20.074)  DataTime: 16.173 (16.173)  Loss:  0.6943 (0.6943)  Acc@1: 81.8685 (81.8685)  Acc@5: 95.4427 (95.4427)
+2023-04-05 18:40:10,496 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.268)  DataTime: 0.000 (1.798)  Loss:  0.5361 (0.9422)  Acc@1: 84.1981 (76.1400)  Acc@5: 96.1085 (93.0580)
+2023-04-05 18:40:30,541 -                train: [    INFO] - Test: [   0/8]  Time: 20.017 (20.017)  DataTime: 17.629 (17.629)  Loss:  0.6938 (0.6938)  Acc@1: 81.9987 (81.9987)  Acc@5: 95.5078 (95.5078)
+2023-04-05 18:40:39,789 -                train: [    INFO] - Test: [   8/8]  Time: 0.189 (3.252)  DataTime: 0.000 (1.960)  Loss:  0.5464 (0.9432)  Acc@1: 84.0802 (76.1960)  Acc@5: 96.2264 (93.0960)
+2023-04-05 18:40:59,074 -                train: [    INFO] - Test: [   0/8]  Time: 19.258 (19.258)  DataTime: 17.973 (17.973)  Loss:  0.6929 (0.6929)  Acc@1: 81.9824 (81.9824)  Acc@5: 95.6055 (95.6055)
+2023-04-05 18:41:08,677 -                train: [    INFO] - Test: [   8/8]  Time: 0.192 (3.207)  DataTime: 0.000 (1.998)  Loss:  0.5337 (0.9371)  Acc@1: 83.8443 (76.2800)  Acc@5: 96.3443 (93.1360)
+2023-04-05 18:41:28,619 -                train: [    INFO] - Test: [   0/8]  Time: 19.916 (19.916)  DataTime: 17.462 (17.462)  Loss:  0.6924 (0.6924)  Acc@1: 81.8197 (81.8197)  Acc@5: 95.5078 (95.5078)
+2023-04-05 18:41:38,006 -                train: [    INFO] - Test: [   8/8]  Time: 0.194 (3.256)  DataTime: 0.000 (1.941)  Loss:  0.5317 (0.9427)  Acc@1: 83.7264 (76.1500)  Acc@5: 96.2264 (92.9920)
+2023-04-05 18:41:58,089 -                train: [    INFO] - Test: [   0/8]  Time: 20.051 (20.051)  DataTime: 19.016 (19.016)  Loss:  0.6919 (0.6919)  Acc@1: 81.8848 (81.8848)  Acc@5: 95.4264 (95.4264)
+2023-04-05 18:42:06,741 -                train: [    INFO] - Test: [   8/8]  Time: 0.206 (3.189)  DataTime: 0.000 (2.114)  Loss:  0.5342 (0.9392)  Acc@1: 83.8443 (76.2420)  Acc@5: 96.2264 (93.0720)
+2023-04-05 18:42:26,811 -                train: [    INFO] - Test: [   0/8]  Time: 20.044 (20.044)  DataTime: 17.640 (17.640)  Loss:  0.6909 (0.6909)  Acc@1: 81.7546 (81.7546)  Acc@5: 95.4590 (95.4590)
+2023-04-05 18:42:36,051 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.254)  DataTime: 0.000 (1.961)  Loss:  0.5459 (0.9424)  Acc@1: 83.7264 (76.2260)  Acc@5: 96.3443 (93.0440)
+2023-04-05 18:42:55,733 -                train: [    INFO] - Test: [   0/8]  Time: 19.656 (19.656)  DataTime: 18.016 (18.016)  Loss:  0.6904 (0.6904)  Acc@1: 82.0313 (82.0313)  Acc@5: 95.5404 (95.5404)
+2023-04-05 18:43:04,056 -                train: [    INFO] - Test: [   8/8]  Time: 0.146 (3.109)  DataTime: 0.000 (2.003)  Loss:  0.5249 (0.9406)  Acc@1: 83.8443 (76.2620)  Acc@5: 96.3443 (93.0900)
+2023-04-05 18:43:04,057 -                train: [    INFO] - eval_metrics_acc1: [76.206, 76.214, 76.14, 76.196, 76.28, 76.15, 76.242, 76.226, 76.262, 76.274]
+2023-04-05 18:43:04,057 -                train: [    INFO] - DE: 0 [de_iter: 3]  Acc@1: 76.2800  Acc@5: 93.1360  Iter_time: 682.451s,  211.00/s  
+2023-04-05 18:43:04,232 - timm.utils.checkpoint_saver: [    INFO] - Current checkpoints:
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-0.pth.tar', [76.206, 76.214, 76.14, 76.196, 76.28, 76.15, 76.242, 76.226, 76.262, 76.274])
+
+2023-04-05 18:44:24,738 -                train: [    INFO] - pop: 0 input: tensor([1.1529, 0.8789, 1.1187, 1.3584, 1.1015], device='cuda:0')
+2023-04-05 18:49:40,529 -                train: [    INFO] - de_iter:0, best_score: 0.9214, best_idx:4, de_iter_loss: [0.9395, 0.9277, 0.9316, 0.937, 0.9214, 0.9292, 0.9282, 0.9331, 0.9282, 0.936]
+2023-04-05 18:51:09,618 -                train: [    INFO] - pop: 0 input: tensor([1.1529, 0.8789, 1.1187, 1.3584, 1.1015], device='cuda:0')
+2023-04-05 18:56:25,237 -                train: [    INFO] - de_iter:1, best_score: 0.9204, best_idx:4, de_iter_loss: [0.937, 0.9268, 0.9302, 0.937, 0.9204, 0.9292, 0.9277, 0.9331, 0.9268, 0.9341]
+2023-04-05 18:56:44,897 -                train: [    INFO] - Test: [   0/8]  Time: 19.622 (19.622)  DataTime: 17.428 (17.428)  Loss:  0.6963 (0.6963)  Acc@1: 81.8522 (81.8522)  Acc@5: 95.3776 (95.3776)
+2023-04-05 18:56:54,102 -                train: [    INFO] - Test: [   8/8]  Time: 0.188 (3.203)  DataTime: 0.000 (1.938)  Loss:  0.5420 (0.9436)  Acc@1: 83.9623 (76.3080)  Acc@5: 95.8726 (93.0560)
+2023-04-05 18:57:13,514 -                train: [    INFO] - Test: [   0/8]  Time: 19.381 (19.381)  DataTime: 17.998 (17.998)  Loss:  0.6963 (0.6963)  Acc@1: 81.8197 (81.8197)  Acc@5: 95.5404 (95.5404)
+2023-04-05 18:57:23,133 -                train: [    INFO] - Test: [   8/8]  Time: 0.188 (3.222)  DataTime: 0.000 (2.001)  Loss:  0.5337 (0.9397)  Acc@1: 83.7264 (76.1780)  Acc@5: 96.1085 (93.0820)
+2023-04-05 18:57:42,656 -                train: [    INFO] - Test: [   0/8]  Time: 19.492 (19.492)  DataTime: 18.145 (18.145)  Loss:  0.6934 (0.6934)  Acc@1: 81.8685 (81.8685)  Acc@5: 95.4590 (95.4590)
+2023-04-05 18:57:52,114 -                train: [    INFO] - Test: [   8/8]  Time: 0.193 (3.217)  DataTime: 0.000 (2.018)  Loss:  0.5356 (0.9418)  Acc@1: 84.1981 (76.1640)  Acc@5: 96.1085 (93.0380)
+2023-04-05 18:58:12,308 -                train: [    INFO] - Test: [   0/8]  Time: 20.168 (20.168)  DataTime: 18.827 (18.827)  Loss:  0.6929 (0.6929)  Acc@1: 82.0150 (82.0150)  Acc@5: 95.6380 (95.6380)
+2023-04-05 18:58:21,561 -                train: [    INFO] - Test: [   8/8]  Time: 0.188 (3.269)  DataTime: 0.000 (2.093)  Loss:  0.5337 (0.9368)  Acc@1: 83.8443 (76.3160)  Acc@5: 96.4623 (93.1600)
+2023-04-05 18:58:41,232 -                train: [    INFO] - Test: [   0/8]  Time: 19.644 (19.644)  DataTime: 17.266 (17.266)  Loss:  0.6914 (0.6914)  Acc@1: 81.8359 (81.8359)  Acc@5: 95.5078 (95.5078)
+2023-04-05 18:58:50,224 -                train: [    INFO] - Test: [   8/8]  Time: 0.161 (3.182)  DataTime: 0.000 (1.919)  Loss:  0.5356 (0.9388)  Acc@1: 83.8443 (76.2520)  Acc@5: 96.2264 (93.0660)
+2023-04-05 18:59:10,027 -                train: [    INFO] - Test: [   0/8]  Time: 19.776 (19.776)  DataTime: 17.758 (17.758)  Loss:  0.6895 (0.6895)  Acc@1: 81.9987 (81.9987)  Acc@5: 95.5566 (95.5566)
+2023-04-05 18:59:18,083 -                train: [    INFO] - Test: [   8/8]  Time: 0.146 (3.092)  DataTime: 0.000 (1.974)  Loss:  0.5249 (0.9399)  Acc@1: 84.0802 (76.2680)  Acc@5: 96.2264 (93.1000)
+2023-04-05 18:59:38,375 -                train: [    INFO] - Test: [   0/8]  Time: 20.267 (20.267)  DataTime: 17.840 (17.840)  Loss:  0.6914 (0.6914)  Acc@1: 82.0475 (82.0475)  Acc@5: 95.5729 (95.5729)
+2023-04-05 18:59:46,956 -                train: [    INFO] - Test: [   8/8]  Time: 0.145 (3.205)  DataTime: 0.000 (1.983)  Loss:  0.5415 (0.9406)  Acc@1: 83.6085 (76.3200)  Acc@5: 96.1085 (93.0340)
+2023-04-05 18:59:46,956 -                train: [    INFO] - eval_metrics_acc1: [76.308, 76.178, 76.164, 76.196, 76.316, 76.15, 76.252, 76.226, 76.268, 76.32]
+2023-04-05 18:59:46,957 -                train: [    INFO] - DE: 1 [de_iter: 1]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 606.426s,  237.46/s  
+2023-04-05 19:01:08,049 -                train: [    INFO] - pop: 0 input: tensor([1.1529, 0.8789, 1.1187, 1.3584, 1.1015], device='cuda:0')
+2023-04-05 19:06:41,074 -                train: [    INFO] - de_iter:2, best_score: 0.9204, best_idx:4, de_iter_loss: [0.936, 0.9263, 0.9282, 0.936, 0.9204, 0.9292, 0.9277, 0.9312, 0.9268, 0.9316]
+2023-04-05 19:07:00,988 -                train: [    INFO] - Test: [   0/8]  Time: 19.879 (19.879)  DataTime: 17.540 (17.540)  Loss:  0.6968 (0.6968)  Acc@1: 81.9010 (81.9010)  Acc@5: 95.4427 (95.4427)
+2023-04-05 19:07:09,217 -                train: [    INFO] - Test: [   8/8]  Time: 0.196 (3.123)  DataTime: 0.000 (1.950)  Loss:  0.5425 (0.9424)  Acc@1: 83.9623 (76.3220)  Acc@5: 95.9906 (93.0240)
+2023-04-05 19:07:29,029 -                train: [    INFO] - Test: [   0/8]  Time: 19.786 (19.786)  DataTime: 18.278 (18.278)  Loss:  0.6953 (0.6953)  Acc@1: 81.8848 (81.8848)  Acc@5: 95.5404 (95.5404)
+2023-04-05 19:07:38,530 -                train: [    INFO] - Test: [   8/8]  Time: 0.191 (3.254)  DataTime: 0.000 (2.032)  Loss:  0.5356 (0.9390)  Acc@1: 83.7264 (76.2100)  Acc@5: 96.2264 (93.1080)
+2023-04-05 19:07:58,513 -                train: [    INFO] - Test: [   0/8]  Time: 19.958 (19.958)  DataTime: 18.515 (18.515)  Loss:  0.6924 (0.6924)  Acc@1: 81.9173 (81.9173)  Acc@5: 95.5892 (95.5892)
+2023-04-05 19:08:07,750 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.244)  DataTime: 0.000 (2.058)  Loss:  0.5361 (0.9407)  Acc@1: 84.0802 (76.2300)  Acc@5: 96.2264 (93.0780)
+2023-04-05 19:08:28,109 -                train: [    INFO] - Test: [   0/8]  Time: 20.334 (20.334)  DataTime: 18.216 (18.216)  Loss:  0.6938 (0.6938)  Acc@1: 82.0150 (82.0150)  Acc@5: 95.6055 (95.6055)
+2023-04-05 19:08:37,507 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.304)  DataTime: 0.000 (2.025)  Loss:  0.5459 (0.9427)  Acc@1: 84.1981 (76.1940)  Acc@5: 96.2264 (93.0740)
+2023-04-05 19:08:56,938 -                train: [    INFO] - Test: [   0/8]  Time: 19.405 (19.405)  DataTime: 17.750 (17.750)  Loss:  0.6904 (0.6904)  Acc@1: 81.9010 (81.9010)  Acc@5: 95.4427 (95.4427)
+2023-04-05 19:09:06,258 -                train: [    INFO] - Test: [   8/8]  Time: 0.192 (3.192)  DataTime: 0.000 (1.973)  Loss:  0.5454 (0.9415)  Acc@1: 83.3726 (76.2220)  Acc@5: 96.3443 (93.0460)
+2023-04-05 19:09:26,732 -                train: [    INFO] - Test: [   0/8]  Time: 20.448 (20.448)  DataTime: 18.201 (18.201)  Loss:  0.6909 (0.6909)  Acc@1: 82.0150 (82.0150)  Acc@5: 95.5566 (95.5566)
+2023-04-05 19:09:35,805 -                train: [    INFO] - Test: [   8/8]  Time: 0.189 (3.280)  DataTime: 0.000 (2.028)  Loss:  0.5396 (0.9395)  Acc@1: 83.8443 (76.2820)  Acc@5: 96.1085 (93.0140)
+2023-04-05 19:09:35,806 -                train: [    INFO] - eval_metrics_acc1: [76.322, 76.21, 76.23, 76.194, 76.316, 76.15, 76.252, 76.222, 76.268, 76.282]
+2023-04-05 19:09:35,806 -                train: [    INFO] - DE: 1 [de_iter: 2]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 588.849s,  244.54/s  
+2023-04-05 19:10:53,984 -                train: [    INFO] - pop: 0 input: tensor([1.1529, 0.8789, 1.1187, 1.3584, 1.1015], device='cuda:0')
+2023-04-05 19:16:16,298 -                train: [    INFO] - de_iter:3, best_score: 0.9204, best_idx:4, de_iter_loss: [0.9346, 0.9263, 0.9268, 0.9341, 0.9204, 0.9292, 0.9268, 0.9302, 0.9263, 0.9312]
+2023-04-05 19:16:35,978 -                train: [    INFO] - Test: [   0/8]  Time: 19.646 (19.646)  DataTime: 18.446 (18.446)  Loss:  0.6958 (0.6958)  Acc@1: 81.8034 (81.8034)  Acc@5: 95.5078 (95.5078)
+2023-04-05 19:16:44,727 -                train: [    INFO] - Test: [   8/8]  Time: 0.192 (3.155)  DataTime: 0.000 (2.051)  Loss:  0.5420 (0.9417)  Acc@1: 83.8443 (76.2920)  Acc@5: 96.1085 (93.0740)
+2023-04-05 19:17:04,203 -                train: [    INFO] - Test: [   0/8]  Time: 19.445 (19.445)  DataTime: 17.967 (17.967)  Loss:  0.6914 (0.6914)  Acc@1: 81.8685 (81.8685)  Acc@5: 95.5241 (95.5241)
+2023-04-05 19:17:11,749 -                train: [    INFO] - Test: [   8/8]  Time: 0.149 (2.999)  DataTime: 0.000 (1.997)  Loss:  0.5347 (0.9394)  Acc@1: 83.9623 (76.2280)  Acc@5: 96.2264 (93.0700)
+2023-04-05 19:17:31,158 -                train: [    INFO] - Test: [   0/8]  Time: 19.382 (19.382)  DataTime: 17.938 (17.938)  Loss:  0.6943 (0.6943)  Acc@1: 81.9824 (81.9824)  Acc@5: 95.5566 (95.5566)
+2023-04-05 19:17:38,991 -                train: [    INFO] - Test: [   8/8]  Time: 0.147 (3.024)  DataTime: 0.000 (1.994)  Loss:  0.5459 (0.9421)  Acc@1: 83.9623 (76.1780)  Acc@5: 96.2264 (93.0820)
+2023-04-05 19:17:58,801 -                train: [    INFO] - Test: [   0/8]  Time: 19.784 (19.784)  DataTime: 17.723 (17.723)  Loss:  0.6914 (0.6914)  Acc@1: 81.7220 (81.7220)  Acc@5: 95.5404 (95.5404)
+2023-04-05 19:18:07,444 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.158)  DataTime: 0.000 (1.970)  Loss:  0.5361 (0.9385)  Acc@1: 83.8443 (76.2380)  Acc@5: 96.2264 (93.0940)
+2023-04-05 19:18:27,710 -                train: [    INFO] - Test: [   0/8]  Time: 20.240 (20.240)  DataTime: 18.914 (18.914)  Loss:  0.6909 (0.6909)  Acc@1: 81.8848 (81.8848)  Acc@5: 95.4264 (95.4264)
+2023-04-05 19:18:36,453 -                train: [    INFO] - Test: [   8/8]  Time: 0.193 (3.220)  DataTime: 0.000 (2.103)  Loss:  0.5439 (0.9405)  Acc@1: 83.3726 (76.2580)  Acc@5: 96.2264 (93.0700)
+2023-04-05 19:18:56,712 -                train: [    INFO] - Test: [   0/8]  Time: 20.234 (20.234)  DataTime: 17.308 (17.308)  Loss:  0.6890 (0.6890)  Acc@1: 81.9987 (81.9987)  Acc@5: 95.5566 (95.5566)
+2023-04-05 19:19:04,397 -                train: [    INFO] - Test: [   8/8]  Time: 0.151 (3.102)  DataTime: 0.000 (1.924)  Loss:  0.5254 (0.9392)  Acc@1: 83.9623 (76.2480)  Acc@5: 96.2264 (93.0920)
+2023-04-05 19:19:24,788 -                train: [    INFO] - Test: [   0/8]  Time: 20.365 (20.365)  DataTime: 18.368 (18.368)  Loss:  0.6904 (0.6904)  Acc@1: 81.9987 (81.9987)  Acc@5: 95.6055 (95.6055)
+2023-04-05 19:19:34,034 -                train: [    INFO] - Test: [   8/8]  Time: 0.196 (3.290)  DataTime: 0.000 (2.042)  Loss:  0.5415 (0.9394)  Acc@1: 83.9623 (76.2880)  Acc@5: 96.1085 (93.0560)
+2023-04-05 19:19:34,034 -                train: [    INFO] - eval_metrics_acc1: [76.292, 76.21, 76.228, 76.178, 76.316, 76.15, 76.238, 76.258, 76.248, 76.288]
+2023-04-05 19:19:34,038 -                train: [    INFO] - DE: 1 [de_iter: 3]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 598.232s,  240.71/s  
+2023-04-05 19:19:34,207 - timm.utils.checkpoint_saver: [    INFO] - Current checkpoints:
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-0.pth.tar', [76.292, 76.21, 76.228, 76.178, 76.316, 76.15, 76.238, 76.258, 76.248, 76.288])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-1.pth.tar', [76.292, 76.21, 76.228, 76.178, 76.316, 76.15, 76.238, 76.258, 76.248, 76.288])
+
+2023-04-05 19:20:51,261 -                train: [    INFO] - pop: 0 input: tensor([-0.5938, -1.1760, -1.3987, -1.2445, -1.0390], device='cuda:0')
+2023-04-05 19:26:04,958 -                train: [    INFO] - de_iter:0, best_score: 0.9424, best_idx:4, de_iter_loss: [0.9551, 0.9473, 0.9487, 0.9551, 0.9424, 0.9526, 0.9482, 0.9502, 0.9473, 0.9517]
+2023-04-05 19:27:24,023 -                train: [    INFO] - pop: 0 input: tensor([-0.5938, -1.1760, -1.3987, -1.2445, -1.0390], device='cuda:0')
+2023-04-05 19:32:43,157 -                train: [    INFO] - de_iter:1, best_score: 0.9424, best_idx:4, de_iter_loss: [0.9531, 0.9473, 0.9487, 0.9546, 0.9424, 0.9502, 0.9482, 0.9502, 0.9448, 0.9502]
+2023-04-05 19:33:04,435 -                train: [    INFO] - Test: [   0/8]  Time: 21.246 (21.246)  DataTime: 19.841 (19.841)  Loss:  0.6958 (0.6958)  Acc@1: 81.8522 (81.8522)  Acc@5: 95.5241 (95.5241)
+2023-04-05 19:33:13,100 -                train: [    INFO] - Test: [   8/8]  Time: 0.145 (3.323)  DataTime: 0.000 (2.206)  Loss:  0.5410 (0.9414)  Acc@1: 83.8443 (76.3060)  Acc@5: 96.1085 (93.0840)
+2023-04-05 19:33:33,221 -                train: [    INFO] - Test: [   0/8]  Time: 20.095 (20.095)  DataTime: 17.384 (17.384)  Loss:  0.6943 (0.6943)  Acc@1: 81.8848 (81.8848)  Acc@5: 95.5404 (95.5404)
+2023-04-05 19:33:42,143 -                train: [    INFO] - Test: [   8/8]  Time: 0.159 (3.224)  DataTime: 0.000 (1.932)  Loss:  0.5439 (0.9417)  Acc@1: 83.8443 (76.1840)  Acc@5: 96.2264 (93.0820)
+2023-04-05 19:34:02,054 -                train: [    INFO] - Test: [   0/8]  Time: 19.885 (19.885)  DataTime: 18.502 (18.502)  Loss:  0.6914 (0.6914)  Acc@1: 81.8848 (81.8848)  Acc@5: 95.5566 (95.5566)
+2023-04-05 19:34:11,155 -                train: [    INFO] - Test: [   8/8]  Time: 0.146 (3.221)  DataTime: 0.000 (2.057)  Loss:  0.5312 (0.9415)  Acc@1: 83.6085 (76.2340)  Acc@5: 96.3443 (93.0060)
+2023-04-05 19:34:30,713 -                train: [    INFO] - Test: [   0/8]  Time: 19.531 (19.531)  DataTime: 16.375 (16.375)  Loss:  0.6895 (0.6895)  Acc@1: 82.0312 (82.0312)  Acc@5: 95.5404 (95.5404)
+2023-04-05 19:34:39,925 -                train: [    INFO] - Test: [   8/8]  Time: 0.194 (3.194)  DataTime: 0.000 (1.820)  Loss:  0.5278 (0.9383)  Acc@1: 83.8443 (76.2340)  Acc@5: 96.2264 (93.1180)
+2023-04-05 19:35:00,385 -                train: [    INFO] - Test: [   0/8]  Time: 20.433 (20.433)  DataTime: 18.468 (18.468)  Loss:  0.6899 (0.6899)  Acc@1: 81.9499 (81.9499)  Acc@5: 95.5729 (95.5729)
+2023-04-05 19:35:09,541 -                train: [    INFO] - Test: [   8/8]  Time: 0.189 (3.288)  DataTime: 0.000 (2.053)  Loss:  0.5400 (0.9387)  Acc@1: 84.0802 (76.2860)  Acc@5: 96.1085 (93.0700)
+2023-04-05 19:35:09,541 -                train: [    INFO] - eval_metrics_acc1: [76.306, 76.21, 76.228, 76.184, 76.316, 76.234, 76.238, 76.258, 76.234, 76.286]
+2023-04-05 19:35:09,541 -                train: [    INFO] - DE: 2 [de_iter: 1]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 544.581s,  264.42/s  
+2023-04-05 19:36:30,099 -                train: [    INFO] - pop: 0 input: tensor([-0.5938, -1.1760, -1.3987, -1.2445, -1.0390], device='cuda:0')
+2023-04-05 19:41:45,253 -                train: [    INFO] - de_iter:2, best_score: 0.9424, best_idx:4, de_iter_loss: [0.9531, 0.9473, 0.9482, 0.9526, 0.9424, 0.9502, 0.9482, 0.9502, 0.9448, 0.9502]
+2023-04-05 19:42:05,871 -                train: [    INFO] - Test: [   0/8]  Time: 20.583 (20.583)  DataTime: 18.713 (18.713)  Loss:  0.6914 (0.6914)  Acc@1: 81.8685 (81.8685)  Acc@5: 95.5566 (95.5566)
+2023-04-05 19:42:15,191 -                train: [    INFO] - Test: [   8/8]  Time: 0.187 (3.323)  DataTime: 0.000 (2.080)  Loss:  0.5347 (0.9387)  Acc@1: 83.9623 (76.2500)  Acc@5: 96.2264 (93.0840)
+2023-04-05 19:42:35,531 -                train: [    INFO] - Test: [   0/8]  Time: 20.314 (20.314)  DataTime: 19.223 (19.223)  Loss:  0.6934 (0.6934)  Acc@1: 81.8685 (81.8685)  Acc@5: 95.5241 (95.5241)
+2023-04-05 19:42:45,060 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.316)  DataTime: 0.000 (2.137)  Loss:  0.5415 (0.9407)  Acc@1: 83.9623 (76.1980)  Acc@5: 96.1085 (93.0880)
+2023-04-05 19:42:45,061 -                train: [    INFO] - eval_metrics_acc1: [76.306, 76.21, 76.25, 76.198, 76.316, 76.234, 76.238, 76.258, 76.234, 76.286]
+2023-04-05 19:42:45,061 -                train: [    INFO] - DE: 2 [de_iter: 2]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 455.519s,  316.12/s  
+2023-04-05 19:44:03,831 -                train: [    INFO] - pop: 0 input: tensor([-0.5938, -1.1760, -1.3987, -1.2445, -1.0390], device='cuda:0')
+2023-04-05 19:49:38,666 -                train: [    INFO] - de_iter:3, best_score: 0.9424, best_idx:4, de_iter_loss: [0.9531, 0.9473, 0.9482, 0.9512, 0.9424, 0.9497, 0.9482, 0.9502, 0.9448, 0.9502]
+2023-04-05 19:49:58,354 -                train: [    INFO] - Test: [   0/8]  Time: 19.661 (19.661)  DataTime: 18.319 (18.319)  Loss:  0.6929 (0.6929)  Acc@1: 81.9336 (81.9336)  Acc@5: 95.5404 (95.5404)
+2023-04-05 19:50:07,663 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.219)  DataTime: 0.000 (2.037)  Loss:  0.5386 (0.9403)  Acc@1: 84.3160 (76.2340)  Acc@5: 96.2264 (93.0800)
+2023-04-05 19:50:27,787 -                train: [    INFO] - Test: [   0/8]  Time: 20.093 (20.093)  DataTime: 19.043 (19.043)  Loss:  0.6909 (0.6909)  Acc@1: 81.9499 (81.9499)  Acc@5: 95.5404 (95.5404)
+2023-04-05 19:50:37,219 -                train: [    INFO] - Test: [   8/8]  Time: 0.193 (3.281)  DataTime: 0.000 (2.117)  Loss:  0.5308 (0.9404)  Acc@1: 83.6085 (76.2440)  Acc@5: 96.3443 (93.0200)
+2023-04-05 19:50:37,220 -                train: [    INFO] - eval_metrics_acc1: [76.306, 76.21, 76.25, 76.234, 76.316, 76.244, 76.238, 76.258, 76.234, 76.286]
+2023-04-05 19:50:37,220 -                train: [    INFO] - DE: 2 [de_iter: 3]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 472.159s,  304.98/s  
+2023-04-05 19:50:37,388 - timm.utils.checkpoint_saver: [    INFO] - Current checkpoints:
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-0.pth.tar', [76.306, 76.21, 76.25, 76.234, 76.316, 76.244, 76.238, 76.258, 76.234, 76.286])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-1.pth.tar', [76.306, 76.21, 76.25, 76.234, 76.316, 76.244, 76.238, 76.258, 76.234, 76.286])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-2.pth.tar', [76.306, 76.21, 76.25, 76.234, 76.316, 76.244, 76.238, 76.258, 76.234, 76.286])
+
+2023-04-05 19:51:59,976 -                train: [    INFO] - pop: 0 input: tensor([0.6906, 0.7933, 0.7591, 0.6734, 0.6392], device='cuda:0')
+2023-04-05 19:57:32,349 -                train: [    INFO] - de_iter:0, best_score: 0.9268, best_idx:4, de_iter_loss: [0.9395, 0.9297, 0.9312, 0.936, 0.9268, 0.9302, 0.9302, 0.9346, 0.9292, 0.9346]
+2023-04-05 19:58:57,876 -                train: [    INFO] - pop: 0 input: tensor([0.6906, 0.7933, 0.7591, 0.6734, 0.6392], device='cuda:0')
+2023-04-05 20:04:05,295 -                train: [    INFO] - de_iter:1, best_score: 0.9268, best_idx:4, de_iter_loss: [0.938, 0.9297, 0.9302, 0.9341, 0.9268, 0.9302, 0.9297, 0.9331, 0.9292, 0.9341]
+2023-04-05 20:04:24,588 -                train: [    INFO] - Test: [   0/8]  Time: 19.261 (19.261)  DataTime: 17.566 (17.566)  Loss:  0.6943 (0.6943)  Acc@1: 81.8685 (81.8685)  Acc@5: 95.5566 (95.5566)
+2023-04-05 20:04:32,979 -                train: [    INFO] - Test: [   8/8]  Time: 0.146 (3.072)  DataTime: 0.000 (1.953)  Loss:  0.5391 (0.9399)  Acc@1: 84.0802 (76.3340)  Acc@5: 96.1085 (93.1100)
+2023-04-05 20:04:53,327 -                train: [    INFO] - Test: [   0/8]  Time: 20.321 (20.321)  DataTime: 17.533 (17.533)  Loss:  0.6924 (0.6924)  Acc@1: 81.9661 (81.9661)  Acc@5: 95.5241 (95.5241)
+2023-04-05 20:05:02,546 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.282)  DataTime: 0.000 (1.949)  Loss:  0.5342 (0.9382)  Acc@1: 83.9623 (76.2620)  Acc@5: 96.2264 (93.1080)
+2023-04-05 20:05:22,447 -                train: [    INFO] - Test: [   0/8]  Time: 19.875 (19.875)  DataTime: 18.527 (18.527)  Loss:  0.6934 (0.6934)  Acc@1: 81.9499 (81.9499)  Acc@5: 95.4915 (95.4915)
+2023-04-05 20:05:31,572 -                train: [    INFO] - Test: [   8/8]  Time: 0.186 (3.222)  DataTime: 0.000 (2.060)  Loss:  0.5381 (0.9400)  Acc@1: 84.1981 (76.2320)  Acc@5: 96.2264 (93.0600)
+2023-04-05 20:05:51,597 -                train: [    INFO] - Test: [   0/8]  Time: 19.999 (19.999)  DataTime: 16.233 (16.233)  Loss:  0.6904 (0.6904)  Acc@1: 81.8685 (81.8685)  Acc@5: 95.5729 (95.5729)
+2023-04-05 20:05:59,778 -                train: [    INFO] - Test: [   8/8]  Time: 0.148 (3.131)  DataTime: 0.000 (1.805)  Loss:  0.5352 (0.9379)  Acc@1: 83.9623 (76.2900)  Acc@5: 96.3443 (93.0900)
+2023-04-05 20:06:20,212 -                train: [    INFO] - Test: [   0/8]  Time: 20.408 (20.408)  DataTime: 17.217 (17.217)  Loss:  0.6904 (0.6904)  Acc@1: 81.8197 (81.8197)  Acc@5: 95.5078 (95.5078)
+2023-04-05 20:06:28,064 -                train: [    INFO] - Test: [   8/8]  Time: 0.155 (3.140)  DataTime: 0.000 (1.914)  Loss:  0.5420 (0.9403)  Acc@1: 83.3726 (76.2940)  Acc@5: 96.1085 (93.0500)
+2023-04-05 20:06:48,506 -                train: [    INFO] - Test: [   0/8]  Time: 20.415 (20.415)  DataTime: 17.458 (17.458)  Loss:  0.6904 (0.6904)  Acc@1: 81.9336 (81.9336)  Acc@5: 95.6380 (95.6380)
+2023-04-05 20:06:56,494 -                train: [    INFO] - Test: [   8/8]  Time: 0.150 (3.156)  DataTime: 0.000 (1.941)  Loss:  0.5391 (0.9388)  Acc@1: 84.0802 (76.2960)  Acc@5: 96.1085 (93.0500)
+2023-04-05 20:06:56,494 -                train: [    INFO] - eval_metrics_acc1: [76.334, 76.21, 76.262, 76.232, 76.316, 76.244, 76.29, 76.294, 76.234, 76.296]
+2023-04-05 20:06:56,494 -                train: [    INFO] - DE: 3 [de_iter: 1]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 564.144s,  255.25/s  
+2023-04-05 20:08:14,928 -                train: [    INFO] - pop: 0 input: tensor([0.6906, 0.7933, 0.7591, 0.6734, 0.6392], device='cuda:0')
+2023-04-05 20:13:39,921 -                train: [    INFO] - de_iter:2, best_score: 0.9268, best_idx:4, de_iter_loss: [0.9375, 0.9292, 0.9302, 0.9341, 0.9268, 0.9302, 0.9297, 0.9331, 0.9292, 0.9331]
+2023-04-05 20:13:59,617 -                train: [    INFO] - Test: [   0/8]  Time: 19.671 (19.671)  DataTime: 17.617 (17.617)  Loss:  0.6943 (0.6943)  Acc@1: 81.8685 (81.8685)  Acc@5: 95.4915 (95.4915)
+2023-04-05 20:14:07,673 -                train: [    INFO] - Test: [   8/8]  Time: 0.229 (3.081)  DataTime: 0.000 (1.973)  Loss:  0.5371 (0.9396)  Acc@1: 83.9623 (76.3000)  Acc@5: 96.2264 (93.1020)
+2023-04-05 20:14:27,788 -                train: [    INFO] - Test: [   0/8]  Time: 20.087 (20.087)  DataTime: 17.333 (17.333)  Loss:  0.6934 (0.6934)  Acc@1: 81.9173 (81.9173)  Acc@5: 95.4753 (95.4753)
+2023-04-05 20:14:35,258 -                train: [    INFO] - Test: [   8/8]  Time: 0.146 (3.062)  DataTime: 0.000 (1.927)  Loss:  0.5352 (0.9381)  Acc@1: 84.0802 (76.2360)  Acc@5: 96.2264 (93.1100)
+2023-04-05 20:14:55,454 -                train: [    INFO] - Test: [   0/8]  Time: 20.171 (20.171)  DataTime: 17.975 (17.975)  Loss:  0.6909 (0.6909)  Acc@1: 81.9499 (81.9499)  Acc@5: 95.6055 (95.6055)
+2023-04-05 20:15:03,539 -                train: [    INFO] - Test: [   8/8]  Time: 0.147 (3.139)  DataTime: 0.000 (1.998)  Loss:  0.5405 (0.9384)  Acc@1: 83.9623 (76.2740)  Acc@5: 96.1085 (93.0780)
+2023-04-05 20:15:03,540 -                train: [    INFO] - eval_metrics_acc1: [76.3, 76.236, 76.262, 76.232, 76.316, 76.244, 76.29, 76.294, 76.234, 76.274]
+2023-04-05 20:15:03,540 -                train: [    INFO] - DE: 3 [de_iter: 2]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 487.046s,  295.66/s  
+2023-04-05 20:16:26,047 -                train: [    INFO] - pop: 0 input: tensor([0.6906, 0.7933, 0.7591, 0.6734, 0.6392], device='cuda:0')
+2023-04-05 20:21:41,124 -                train: [    INFO] - de_iter:3, best_score: 0.9268, best_idx:4, de_iter_loss: [0.9355, 0.9292, 0.9302, 0.9341, 0.9268, 0.9302, 0.9292, 0.9316, 0.9282, 0.9312]
+2023-04-05 20:21:59,507 -                train: [    INFO] - Test: [   0/8]  Time: 18.330 (18.330)  DataTime: 16.797 (16.797)  Loss:  0.6938 (0.6938)  Acc@1: 81.9173 (81.9173)  Acc@5: 95.4753 (95.4753)
+2023-04-05 20:22:08,811 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.070)  DataTime: 0.000 (1.868)  Loss:  0.5366 (0.9393)  Acc@1: 83.8443 (76.3080)  Acc@5: 96.3443 (93.1040)
+2023-04-05 20:22:28,269 -                train: [    INFO] - Test: [   0/8]  Time: 19.431 (19.431)  DataTime: 17.860 (17.860)  Loss:  0.6909 (0.6909)  Acc@1: 81.9010 (81.9010)  Acc@5: 95.5892 (95.5892)
+2023-04-05 20:22:37,480 -                train: [    INFO] - Test: [   8/8]  Time: 0.188 (3.182)  DataTime: 0.000 (1.985)  Loss:  0.5342 (0.9374)  Acc@1: 84.1981 (76.3260)  Acc@5: 96.2264 (93.0820)
+2023-04-05 20:22:57,818 -                train: [    INFO] - Test: [   0/8]  Time: 20.307 (20.307)  DataTime: 17.105 (17.105)  Loss:  0.6904 (0.6904)  Acc@1: 81.7546 (81.7546)  Acc@5: 95.4915 (95.4915)
+2023-04-05 20:23:06,888 -                train: [    INFO] - Test: [   8/8]  Time: 0.189 (3.264)  DataTime: 0.000 (1.913)  Loss:  0.5405 (0.9397)  Acc@1: 83.4906 (76.3040)  Acc@5: 95.9906 (93.0500)
+2023-04-05 20:23:26,340 -                train: [    INFO] - Test: [   0/8]  Time: 19.421 (19.421)  DataTime: 18.421 (18.421)  Loss:  0.6895 (0.6895)  Acc@1: 82.0150 (82.0150)  Acc@5: 95.5729 (95.5729)
+2023-04-05 20:23:33,925 -                train: [    INFO] - Test: [   8/8]  Time: 0.146 (3.001)  DataTime: 0.000 (2.048)  Loss:  0.5303 (0.9376)  Acc@1: 83.6085 (76.2260)  Acc@5: 96.2264 (93.1280)
+2023-04-05 20:23:53,440 -                train: [    INFO] - Test: [   0/8]  Time: 19.489 (19.489)  DataTime: 16.763 (16.763)  Loss:  0.6904 (0.6904)  Acc@1: 82.0313 (82.0313)  Acc@5: 95.5729 (95.5729)
+2023-04-05 20:24:02,750 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.200)  DataTime: 0.000 (1.864)  Loss:  0.5391 (0.9381)  Acc@1: 83.9623 (76.3080)  Acc@5: 96.1085 (93.0920)
+2023-04-05 20:24:02,751 -                train: [    INFO] - eval_metrics_acc1: [76.308, 76.236, 76.262, 76.232, 76.316, 76.244, 76.326, 76.304, 76.226, 76.308]
+2023-04-05 20:24:02,751 -                train: [    INFO] - DE: 3 [de_iter: 3]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 539.211s,  267.06/s  
+2023-04-05 20:24:02,921 - timm.utils.checkpoint_saver: [    INFO] - Current checkpoints:
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-0.pth.tar', [76.308, 76.236, 76.262, 76.232, 76.316, 76.244, 76.326, 76.304, 76.226, 76.308])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-1.pth.tar', [76.308, 76.236, 76.262, 76.232, 76.316, 76.244, 76.326, 76.304, 76.226, 76.308])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-2.pth.tar', [76.308, 76.236, 76.262, 76.232, 76.316, 76.244, 76.326, 76.304, 76.226, 76.308])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-3.pth.tar', [76.308, 76.236, 76.262, 76.232, 76.316, 76.244, 76.326, 76.304, 76.226, 76.308])
+
+2023-04-05 20:25:21,457 -                train: [    INFO] - pop: 0 input: tensor([-0.4226, -0.0801,  0.0741, -0.2513,  0.1426], device='cuda:0')
+2023-04-05 20:30:59,077 -                train: [    INFO] - de_iter:0, best_score: 0.9438, best_idx:4, de_iter_loss: [0.9536, 0.9482, 0.9497, 0.9536, 0.9438, 0.9482, 0.9473, 0.9502, 0.9468, 0.9502]
+2023-04-05 20:32:26,675 -                train: [    INFO] - pop: 0 input: tensor([-0.4226, -0.0801,  0.0741, -0.2513,  0.1426], device='cuda:0')
+2023-04-05 20:37:50,363 -                train: [    INFO] - de_iter:1, best_score: 0.9438, best_idx:4, de_iter_loss: [0.9536, 0.9473, 0.9482, 0.9531, 0.9438, 0.9482, 0.9473, 0.9482, 0.9468, 0.9497]
+2023-04-05 20:38:10,533 -                train: [    INFO] - Test: [   0/8]  Time: 20.140 (20.140)  DataTime: 14.949 (14.949)  Loss:  0.6929 (0.6929)  Acc@1: 81.9173 (81.9173)  Acc@5: 95.5078 (95.5078)
+2023-04-05 20:38:19,894 -                train: [    INFO] - Test: [   8/8]  Time: 0.195 (3.278)  DataTime: 0.000 (1.662)  Loss:  0.5332 (0.9378)  Acc@1: 84.3160 (76.2720)  Acc@5: 96.2264 (93.1380)
+2023-04-05 20:38:39,290 -                train: [    INFO] - Test: [   0/8]  Time: 19.364 (19.364)  DataTime: 17.609 (17.609)  Loss:  0.6929 (0.6929)  Acc@1: 81.9010 (81.9010)  Acc@5: 95.4915 (95.4915)
+2023-04-05 20:38:47,058 -                train: [    INFO] - Test: [   8/8]  Time: 0.148 (3.015)  DataTime: 0.000 (1.957)  Loss:  0.5342 (0.9383)  Acc@1: 83.8443 (76.2640)  Acc@5: 96.2264 (93.1020)
+2023-04-05 20:39:07,099 -                train: [    INFO] - Test: [   0/8]  Time: 20.015 (20.015)  DataTime: 16.952 (16.952)  Loss:  0.6934 (0.6934)  Acc@1: 81.9336 (81.9336)  Acc@5: 95.4590 (95.4590)
+2023-04-05 20:39:16,326 -                train: [    INFO] - Test: [   8/8]  Time: 0.187 (3.249)  DataTime: 0.000 (1.885)  Loss:  0.5381 (0.9395)  Acc@1: 83.9623 (76.2200)  Acc@5: 96.2264 (93.0700)
+2023-04-05 20:39:36,040 -                train: [    INFO] - Test: [   0/8]  Time: 19.688 (19.688)  DataTime: 18.301 (18.301)  Loss:  0.6890 (0.6890)  Acc@1: 81.8359 (81.8359)  Acc@5: 95.6055 (95.6055)
+2023-04-05 20:39:44,284 -                train: [    INFO] - Test: [   8/8]  Time: 0.151 (3.104)  DataTime: 0.000 (2.034)  Loss:  0.5405 (0.9387)  Acc@1: 83.6085 (76.3060)  Acc@5: 95.9906 (93.0960)
+2023-04-05 20:40:03,840 -                train: [    INFO] - Test: [   0/8]  Time: 19.530 (19.530)  DataTime: 17.835 (17.835)  Loss:  0.6904 (0.6904)  Acc@1: 82.0638 (82.0638)  Acc@5: 95.6055 (95.6055)
+2023-04-05 20:40:12,627 -                train: [    INFO] - Test: [   8/8]  Time: 0.199 (3.146)  DataTime: 0.000 (1.983)  Loss:  0.5396 (0.9380)  Acc@1: 83.9623 (76.3480)  Acc@5: 96.2264 (93.1120)
+2023-04-05 20:40:12,628 -                train: [    INFO] - eval_metrics_acc1: [76.308, 76.272, 76.264, 76.22, 76.316, 76.244, 76.326, 76.306, 76.226, 76.348]
+2023-04-05 20:40:12,628 -                train: [    INFO] - DE: 4 [de_iter: 1]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 553.550s,  260.14/s  
+2023-04-05 20:41:31,511 -                train: [    INFO] - pop: 0 input: tensor([-0.4226, -0.0801,  0.0741, -0.2513,  0.1426], device='cuda:0')
+2023-04-05 20:46:51,195 -                train: [    INFO] - de_iter:2, best_score: 0.9438, best_idx:4, de_iter_loss: [0.9536, 0.9468, 0.9482, 0.9531, 0.9438, 0.9482, 0.9473, 0.9482, 0.9458, 0.9497]
+2023-04-05 20:47:08,313 -                train: [    INFO] - Test: [   0/8]  Time: 17.070 (17.070)  DataTime: 15.541 (15.541)  Loss:  0.6924 (0.6924)  Acc@1: 81.8848 (81.8848)  Acc@5: 95.5404 (95.5404)
+2023-04-05 20:47:17,829 -                train: [    INFO] - Test: [   8/8]  Time: 0.194 (2.954)  DataTime: 0.000 (1.728)  Loss:  0.5317 (0.9375)  Acc@1: 84.3160 (76.2120)  Acc@5: 96.2264 (93.1180)
+2023-04-05 20:47:38,204 -                train: [    INFO] - Test: [   0/8]  Time: 20.350 (20.350)  DataTime: 18.681 (18.681)  Loss:  0.6885 (0.6885)  Acc@1: 82.0150 (82.0150)  Acc@5: 95.6380 (95.6380)
+2023-04-05 20:47:46,186 -                train: [    INFO] - Test: [   8/8]  Time: 0.151 (3.148)  DataTime: 0.000 (2.077)  Loss:  0.5303 (0.9377)  Acc@1: 83.6085 (76.2500)  Acc@5: 96.2264 (93.1400)
+2023-04-05 20:47:46,187 -                train: [    INFO] - eval_metrics_acc1: [76.308, 76.212, 76.264, 76.22, 76.316, 76.244, 76.326, 76.306, 76.25, 76.348]
+2023-04-05 20:47:46,187 -                train: [    INFO] - DE: 4 [de_iter: 2]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 453.560s,  317.49/s  
+2023-04-05 20:49:05,088 -                train: [    INFO] - pop: 0 input: tensor([-0.4226, -0.0801,  0.0741, -0.2513,  0.1426], device='cuda:0')
+2023-04-05 20:54:34,414 -                train: [    INFO] - de_iter:3, best_score: 0.9438, best_idx:4, de_iter_loss: [0.9536, 0.9468, 0.9482, 0.9517, 0.9438, 0.9482, 0.9473, 0.9482, 0.9458, 0.9497]
+2023-04-05 20:54:54,658 -                train: [    INFO] - Test: [   0/8]  Time: 20.210 (20.210)  DataTime: 18.731 (18.731)  Loss:  0.6914 (0.6914)  Acc@1: 81.9987 (81.9987)  Acc@5: 95.5404 (95.5404)
+2023-04-05 20:55:02,912 -                train: [    INFO] - Test: [   8/8]  Time: 0.147 (3.163)  DataTime: 0.000 (2.083)  Loss:  0.5366 (0.9394)  Acc@1: 84.1981 (76.2260)  Acc@5: 96.2264 (93.0980)
+2023-04-05 20:55:02,912 -                train: [    INFO] - eval_metrics_acc1: [76.308, 76.212, 76.264, 76.226, 76.316, 76.244, 76.326, 76.306, 76.25, 76.348]
+2023-04-05 20:55:02,912 -                train: [    INFO] - DE: 4 [de_iter: 3]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 436.725s,  329.73/s  
+2023-04-05 20:55:03,078 - timm.utils.checkpoint_saver: [    INFO] - Current checkpoints:
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-0.pth.tar', [76.308, 76.212, 76.264, 76.226, 76.316, 76.244, 76.326, 76.306, 76.25, 76.348])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-1.pth.tar', [76.308, 76.212, 76.264, 76.226, 76.316, 76.244, 76.326, 76.306, 76.25, 76.348])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-2.pth.tar', [76.308, 76.212, 76.264, 76.226, 76.316, 76.244, 76.326, 76.306, 76.25, 76.348])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-3.pth.tar', [76.308, 76.212, 76.264, 76.226, 76.316, 76.244, 76.326, 76.306, 76.25, 76.348])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-4.pth.tar', [76.308, 76.212, 76.264, 76.226, 76.316, 76.244, 76.326, 76.306, 76.25, 76.348])
+
+2023-04-05 20:56:21,793 -                train: [    INFO] - pop: 0 input: tensor([-1.7925, -1.7069, -1.6555, -1.5528, -1.5357], device='cuda:0')
+2023-04-05 21:01:31,457 -                train: [    INFO] - de_iter:0, best_score: 0.9214, best_idx:4, de_iter_loss: [0.9316, 0.9238, 0.9263, 0.9302, 0.9214, 0.9277, 0.9248, 0.9268, 0.9238, 0.9297]
+2023-04-05 21:02:49,012 -                train: [    INFO] - pop: 0 input: tensor([-1.7925, -1.7069, -1.6555, -1.5528, -1.5357], device='cuda:0')
+2023-04-05 21:08:32,260 -                train: [    INFO] - de_iter:1, best_score: 0.9214, best_idx:4, de_iter_loss: [0.9312, 0.9238, 0.9253, 0.9297, 0.9214, 0.9268, 0.9248, 0.9263, 0.9238, 0.9292]
+2023-04-05 21:08:54,244 -                train: [    INFO] - Test: [   0/8]  Time: 21.949 (21.949)  DataTime: 20.626 (20.626)  Loss:  0.6929 (0.6929)  Acc@1: 81.7708 (81.7708)  Acc@5: 95.4915 (95.4915)
+2023-04-05 21:09:01,781 -                train: [    INFO] - Test: [   8/8]  Time: 0.144 (3.276)  DataTime: 0.000 (2.293)  Loss:  0.5352 (0.9384)  Acc@1: 83.9623 (76.3100)  Acc@5: 96.2264 (93.1040)
+2023-04-05 21:09:22,086 -                train: [    INFO] - Test: [   0/8]  Time: 20.280 (20.280)  DataTime: 17.929 (17.929)  Loss:  0.6929 (0.6929)  Acc@1: 81.8848 (81.8848)  Acc@5: 95.5404 (95.5404)
+2023-04-05 21:09:31,131 -                train: [    INFO] - Test: [   8/8]  Time: 0.186 (3.258)  DataTime: 0.000 (1.993)  Loss:  0.5361 (0.9386)  Acc@1: 83.7264 (76.2460)  Acc@5: 96.2264 (93.1080)
+2023-04-05 21:09:50,841 -                train: [    INFO] - Test: [   0/8]  Time: 19.685 (19.685)  DataTime: 17.653 (17.653)  Loss:  0.6919 (0.6919)  Acc@1: 82.0801 (82.0801)  Acc@5: 95.5729 (95.5729)
+2023-04-05 21:09:59,736 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.175)  DataTime: 0.000 (1.963)  Loss:  0.5366 (0.9389)  Acc@1: 84.0802 (76.2640)  Acc@5: 96.2264 (93.0960)
+2023-04-05 21:10:19,737 -                train: [    INFO] - Test: [   0/8]  Time: 19.971 (19.971)  DataTime: 18.763 (18.763)  Loss:  0.6909 (0.6909)  Acc@1: 81.9499 (81.9499)  Acc@5: 95.5566 (95.5566)
+2023-04-05 21:10:27,087 -                train: [    INFO] - Test: [   8/8]  Time: 0.151 (3.036)  DataTime: 0.000 (2.086)  Loss:  0.5312 (0.9399)  Acc@1: 83.8443 (76.2460)  Acc@5: 96.3443 (93.0300)
+2023-04-05 21:10:47,274 -                train: [    INFO] - Test: [   0/8]  Time: 20.161 (20.161)  DataTime: 18.660 (18.660)  Loss:  0.6899 (0.6899)  Acc@1: 81.8848 (81.8848)  Acc@5: 95.6217 (95.6217)
+2023-04-05 21:10:55,323 -                train: [    INFO] - Test: [   8/8]  Time: 0.145 (3.134)  DataTime: 0.000 (2.074)  Loss:  0.5396 (0.9386)  Acc@1: 83.3726 (76.2580)  Acc@5: 96.1085 (93.1260)
+2023-04-05 21:11:15,672 -                train: [    INFO] - Test: [   0/8]  Time: 20.323 (20.323)  DataTime: 18.664 (18.664)  Loss:  0.6904 (0.6904)  Acc@1: 82.0475 (82.0475)  Acc@5: 95.5892 (95.5892)
+2023-04-05 21:11:24,195 -                train: [    INFO] - Test: [   8/8]  Time: 0.188 (3.205)  DataTime: 0.000 (2.075)  Loss:  0.5366 (0.9377)  Acc@1: 83.9623 (76.3280)  Acc@5: 96.2264 (93.1140)
+2023-04-05 21:11:24,195 -                train: [    INFO] - eval_metrics_acc1: [76.31, 76.212, 76.246, 76.264, 76.316, 76.246, 76.326, 76.258, 76.25, 76.328]
+2023-04-05 21:11:24,195 -                train: [    INFO] - DE: 5 [de_iter: 1]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 592.736s,  242.94/s  
+2023-04-05 21:12:38,928 -                train: [    INFO] - pop: 0 input: tensor([-1.7925, -1.7069, -1.6555, -1.5528, -1.5357], device='cuda:0')
+2023-04-05 21:18:26,363 -                train: [    INFO] - de_iter:2, best_score: 0.9214, best_idx:4, de_iter_loss: [0.9297, 0.9238, 0.9253, 0.9292, 0.9214, 0.9263, 0.9248, 0.9263, 0.9233, 0.9292]
+2023-04-05 21:18:44,840 -                train: [    INFO] - Test: [   0/8]  Time: 18.450 (18.450)  DataTime: 16.927 (16.927)  Loss:  0.6929 (0.6929)  Acc@1: 81.8197 (81.8197)  Acc@5: 95.5241 (95.5241)
+2023-04-05 21:18:54,181 -                train: [    INFO] - Test: [   8/8]  Time: 0.193 (3.088)  DataTime: 0.000 (1.882)  Loss:  0.5356 (0.9380)  Acc@1: 83.6085 (76.2900)  Acc@5: 96.1085 (93.1340)
+2023-04-05 21:19:14,176 -                train: [    INFO] - Test: [   0/8]  Time: 19.963 (19.963)  DataTime: 18.641 (18.641)  Loss:  0.6919 (0.6919)  Acc@1: 82.0964 (82.0964)  Acc@5: 95.5566 (95.5566)
+2023-04-05 21:19:23,563 -                train: [    INFO] - Test: [   8/8]  Time: 0.188 (3.261)  DataTime: 0.000 (2.072)  Loss:  0.5366 (0.9385)  Acc@1: 83.8443 (76.2940)  Acc@5: 96.4623 (93.0820)
+2023-04-05 21:19:43,321 -                train: [    INFO] - Test: [   0/8]  Time: 19.726 (19.726)  DataTime: 18.561 (18.561)  Loss:  0.6904 (0.6904)  Acc@1: 81.9824 (81.9824)  Acc@5: 95.5729 (95.5729)
+2023-04-05 21:19:52,693 -                train: [    INFO] - Test: [   8/8]  Time: 0.190 (3.233)  DataTime: 0.000 (2.063)  Loss:  0.5327 (0.9389)  Acc@1: 83.6085 (76.3040)  Acc@5: 96.2264 (93.0700)
+2023-04-05 21:20:12,252 -                train: [    INFO] - Test: [   0/8]  Time: 19.533 (19.533)  DataTime: 18.151 (18.151)  Loss:  0.6875 (0.6875)  Acc@1: 81.9824 (81.9824)  Acc@5: 95.6217 (95.6217)
+2023-04-05 21:20:21,272 -                train: [    INFO] - Test: [   8/8]  Time: 0.187 (3.173)  DataTime: 0.000 (2.018)  Loss:  0.5308 (0.9373)  Acc@1: 83.9623 (76.2640)  Acc@5: 96.2264 (93.1140)
+2023-04-05 21:20:21,272 -                train: [    INFO] - eval_metrics_acc1: [76.29, 76.212, 76.246, 76.294, 76.316, 76.304, 76.326, 76.258, 76.264, 76.328]
+2023-04-05 21:20:21,272 -                train: [    INFO] - DE: 5 [de_iter: 2]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 537.077s,  268.12/s  
+2023-04-05 21:21:31,272 -                train: [    INFO] - pop: 0 input: tensor([-1.7925, -1.7069, -1.6555, -1.5528, -1.5357], device='cuda:0')
+2023-04-05 21:27:01,393 -                train: [    INFO] - de_iter:3, best_score: 0.9214, best_idx:4, de_iter_loss: [0.9292, 0.9238, 0.9253, 0.9282, 0.9214, 0.9248, 0.9248, 0.9263, 0.9233, 0.9292]
+2023-04-05 21:27:20,778 -                train: [    INFO] - Test: [   0/8]  Time: 19.350 (19.350)  DataTime: 18.003 (18.003)  Loss:  0.6924 (0.6924)  Acc@1: 81.8197 (81.8197)  Acc@5: 95.5241 (95.5241)
+2023-04-05 21:27:29,674 -                train: [    INFO] - Test: [   8/8]  Time: 0.189 (3.138)  DataTime: 0.000 (2.001)  Loss:  0.5352 (0.9379)  Acc@1: 83.4906 (76.2800)  Acc@5: 96.3443 (93.0960)
+2023-04-05 21:27:49,371 -                train: [    INFO] - Test: [   0/8]  Time: 19.665 (19.665)  DataTime: 18.550 (18.550)  Loss:  0.6914 (0.6914)  Acc@1: 82.0312 (82.0312)  Acc@5: 95.6380 (95.6380)
+2023-04-05 21:27:57,425 -                train: [    INFO] - Test: [   8/8]  Time: 0.147 (3.080)  DataTime: 0.000 (2.062)  Loss:  0.5361 (0.9379)  Acc@1: 83.7264 (76.3080)  Acc@5: 96.3443 (93.1100)
+2023-04-05 21:28:17,616 -                train: [    INFO] - Test: [   0/8]  Time: 20.165 (20.165)  DataTime: 17.648 (17.648)  Loss:  0.6895 (0.6895)  Acc@1: 82.0312 (82.0312)  Acc@5: 95.5566 (95.5566)
+2023-04-05 21:28:27,013 -                train: [    INFO] - Test: [   8/8]  Time: 0.191 (3.285)  DataTime: 0.000 (1.962)  Loss:  0.5347 (0.9384)  Acc@1: 83.7264 (76.3220)  Acc@5: 96.3443 (93.1040)
+2023-04-05 21:28:27,014 -                train: [    INFO] - eval_metrics_acc1: [76.28, 76.212, 76.246, 76.308, 76.316, 76.322, 76.326, 76.258, 76.264, 76.328]
+2023-04-05 21:28:27,014 -                train: [    INFO] - DE: 5 [de_iter: 3]  Acc@1: 76.3160  Acc@5: 93.1600  Iter_time: 485.742s,  296.45/s  
+2023-04-05 21:28:27,245 - timm.utils.checkpoint_saver: [    INFO] - Current checkpoints:
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-0.pth.tar', [76.28, 76.212, 76.246, 76.308, 76.316, 76.322, 76.326, 76.258, 76.264, 76.328])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-1.pth.tar', [76.28, 76.212, 76.246, 76.308, 76.316, 76.322, 76.326, 76.258, 76.264, 76.328])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-2.pth.tar', [76.28, 76.212, 76.246, 76.308, 76.316, 76.322, 76.326, 76.258, 76.264, 76.328])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-3.pth.tar', [76.28, 76.212, 76.246, 76.308, 76.316, 76.322, 76.326, 76.258, 76.264, 76.328])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-4.pth.tar', [76.28, 76.212, 76.246, 76.308, 76.316, 76.322, 76.326, 76.258, 76.264, 76.328])
+ ('./output/train/20230405-175633-resnet50-224/checkpoint-5.pth.tar', [76.28, 76.212, 76.246, 76.308, 76.316, 76.322, 76.326, 76.258, 76.264, 76.328])
+
